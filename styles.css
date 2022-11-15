@@ -1,16 +1,15 @@
+@font-face {
+    font-family: "Mocha";
+    src: url(fonts/Mocha-Demo_1.woff) format("woff");
+}
 @font-face{
     font-family: "Raleway";
     src: url(Raleway-Medium.woff) format("woff"),
     url(Raleway-Medium.woff2) format("woff2");
 }
-@font-face {
-    font-family: "Mocha";
-    src: url(fonts/Mocha-Demo_1.woff) format("woff");
-}
-
 *{
     box-sizing: border-box;
-    font-family:"Raleway";
+    font-family: "Raleway";
     color: rgb(27, 27, 27);
 }
 html{
@@ -20,6 +19,8 @@ html{
 html, body{
     margin: 0;
     padding: 0;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
 }
 a{
     text-decoration: none;
@@ -51,6 +52,7 @@ h1{
 .music-player{
     margin-left: 1.2em;
     width: 500px;
+
     
 }
 .surprise{
@@ -99,12 +101,12 @@ footer h3{
 }
 .fav-pic{
     float:left;
-    padding: 0.5em;
+    padding: 0.8em;
     max-width: 500px;
 }
 .ananna-pic{
     float: right;
-    padding: 0.6rem;
+    padding: 0.8rem;
     max-width: 500px;
 }
 .ananna-pic-3{
@@ -115,7 +117,7 @@ footer h3{
     font-family: "Mocha";
     color: rgb(121, 43, 43);
     text-align: center;
-    font-size: 9rem;
+    font-size: 9em;
 }
 .hidden-message{
     color: rgb(117, 94, 94);
