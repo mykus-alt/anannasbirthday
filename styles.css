@@ -38,12 +38,12 @@ h1{
 .main-header{
     font-family: "Mocha";
     font-weight: normal;
-    font-size: 6em;
+    font-size: 2.2rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.79);
 }
 .main-header-wish{
-    font-size: 10rem;
+    font-size: 8rem;
 }
 .music-player{
     margin-left: 1.2em;
@@ -73,7 +73,7 @@ p, li{
 h2, h2 .insta{
     font-family: "Mocha";
     font-weight: normal;
-    font-size: 7rem;
+    font-size: 6rem;
     color:rgb(158, 52, 52);
 }
 footer{
@@ -85,7 +85,7 @@ footer{
 }
 footer h3{
     font-family: "Mocha";
-    font-size: 2rem;
+    font-size: 4rem;
     padding-left: 0.7rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -95,16 +95,24 @@ footer h3{
 .fav-pic{
     float:left;
     padding: 0.5em;
+    max-width: 500px;
 }
 .ananna-pic{
     float: right;
     padding: 0.6rem;
+    max-width: 500px;
 }
-
+.ananna-pic-3{
+    max-height: 707px;;
+}
 
 #shundori{
     font-family: "Mocha";
     color: rgb(121, 43, 43);
     text-align: center;
     font-size: 9em;
+}
+.hidden-message{
+    color: rgb(117, 100, 100);
+    cursor: pointer;
 }
