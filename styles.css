@@ -1,0 +1,110 @@
+
+
+@font-face {
+    font-family: "Mocha";
+    src: url(fonts/Mocha-Demo_1.woff) format("woff");
+}
+
+*{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(27, 27, 27);
+}
+html{
+    background-color: rgb(22, 21, 18);
+    
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.insta:hover{
+    color:rgb(56, 22, 22);
+}
+h1{
+    margin: 0;
+    padding-top: 1em;
+}
+.main-header{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(images/header_101.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.main-header{
+    font-family: "Mocha";
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.79);
+}
+.main-header-wish{
+    font-size: 6rem;
+}
+.music-player{
+    margin-left: 1.2em;
+    
+}
+.surprise{
+    padding: 1em 1em 1em 1em; 
+    font-size: .6em;
+    margin-bottom: 2em;
+    background-color: rgba(94, 94, 94, 0.23);
+    border: 2px solid white;
+    cursor: pointer;
+}
+.surprise-text{
+    color: white;
+}
+.surprise:hover{
+    background-color: rgba(234, 154, 154, 0.4);
+}
+section{
+    padding: 1em;
+   
+}
+p, li{
+    color: rgb(97, 97, 97);
+}
+h2, h2 .insta{
+    font-family: "Mocha";
+    font-weight: normal;
+    font-size: 2.2rem;
+    color:rgb(158, 52, 52);
+}
+footer{
+    background-image: url(images/header_101.jpeg);
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.377);
+    background-blend-mode: multiply;
+    
+}
+footer h3{
+    font-family: "Mocha";
+    font-size: 2rem;
+    padding-left: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+    color: rgb(159, 159, 159);
+}
+.fav-pic{
+    float:left;
+    padding: 0.5em;
+}
+.ananna-pic{
+    float: right;
+    padding: 0.6rem;
+}
+
+
+#shundori{
+    font-family: "Mocha";
+    color: rgb(121, 43, 43);
+    text-align: center;
+    font-size: 9em;
+}
