@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @font-face {
     font-family: "Mocha";
     src: url(fonts/Mocha-Demo_1.woff) format("woff");
@@ -7,7 +6,7 @@
 
 *{
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Raleway;
     color: rgb(27, 27, 27);
 }
 html{
@@ -69,6 +68,7 @@ section{
 }
 p, li{
     color: rgb(97, 97, 97);
+
 }
 h2, h2 .insta{
     font-family: "Mocha";
@@ -113,6 +113,6 @@ footer h3{
     font-size: 9em;
 }
 .hidden-message{
-    color: rgb(117, 100, 100);
+    color: rgb(117, 94, 94);
     cursor: pointer;
 }
