@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@font-face{
+    font-family: "Raleway";
+    src: url(Raleway-Medium.woff) format("woff"),
+    url(Raleway-Medium.woff2) format("woff2");
+}
 @font-face {
     font-family: "Mocha";
     src: url(fonts/Mocha-Demo_1.woff) format("woff");
@@ -6,7 +10,7 @@
 
 *{
     box-sizing: border-box;
-    font-family:Raleway;
+    font-family:"Raleway";
     color: rgb(27, 27, 27);
 }
 html{
